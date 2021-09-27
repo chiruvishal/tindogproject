@@ -1,0 +1,165 @@
+body{
+    text-align: center;
+}
+#title{
+    background-color:#ff4c68;
+    font-family: "Montserrat-italic";
+}
+.top-para{
+    font-family: "Montserrat-black-900"; 
+    font-size: 4em;  
+    line-height: 1.7;
+    font-weight: 1000;  
+    color: white;
+}
+.big-heading{
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 7%;
+}
+h2{
+    font-family: "Montsterrat";
+    font-weight: bolder;
+    font-size: 3em;
+    line-height: 1.5;
+}
+
+.rotate-image {
+    transform: rotate(20deg);
+    height: 685px;
+    width: auto;
+    padding-top: 10px;
+    position: absolute;
+    margin-top: 1%;
+    padding-left: 3%;
+}
+@media (max-width:1040px){
+    #title{
+        text-align: center;
+    }
+    .media-query1{
+        text-align: center;
+    }
+    .rotate-image{
+        position: static;
+        transform: rotate(0);
+    }
+    .testimonial-text{
+        font-size: 1.5em;
+        line-height:1;
+    }
+    .top-para{
+        line-height: 1;
+    }
+    h3.ending{
+        font-size: 1.5em;
+    }
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'ubuntu';
+}
+.navbar{
+    padding-bottom: 3rem;
+}
+.nav-item{
+    padding:0 18px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat-light' ;
+    font-weight: lighter;
+}
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+.icon{
+    color: #ff4c68;
+    height:100px ;
+    width:100px ;
+}
+
+
+h3{
+    font-weight: bolder;
+    padding-top: 1em;
+}
+p{
+
+    color: #8f8f8f;
+}
+#features{
+    position:relative;
+    z-index: 1;
+    background-color: white;
+}
+.secondcontainer{
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+.fa-check-circle:hover {
+    color:#FFC300;
+}
+.fa-bullseye:hover{
+    color:#FFC300;
+}
+.fa-heart:hover{
+    color:#FFC300;
+}
+.centres{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#testimonials{
+    background-color:#ef8172;
+    color:#fff;
+
+} 
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonialimage{
+    border-radius: 100%;
+    margin: 20px;
+}   
+ #press{
+     background-color: #ef8172;
+     padding: 7% 15%;
+     
+ }
+ .press-image{
+     width: 15%;
+     margin: 20px 20px 70px;
+    
+ }
+ .dogimage{
+     height: 220px;
+     width:auto;
+     border-radius: 80%;
+ }
+
+ #pricing{
+     padding: 7% 15%;
+ }
+ 
+ #cta{
+     background-color:#1D7CF2 ;
+     padding: 7% 15%;
+ }
+ .ending{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 3.5em;
+    color: white;
+    height: 1.5;
+ }
+ #footer{
+     padding: 7% 15%;
+ }
+ .social-icon{
+     margin: 20px 30px;
+ }
